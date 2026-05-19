@@ -69,4 +69,4 @@ La base de datos fue normalizada para soportar las reglas de negocio del colegio
 ---
 
 ## ✉️ Contacto y Demostración en Vivo
-Si deseas conocer más detalles sobre la implementación del código, la optimización de las consultas SQL con Eloquent o ver una demostración guiada de la plataforma en funcionamiento, no dudes en contactarme.
+Si deseas conocer más detalles sobre la implementación del código, o ver una demostración guiada de la plataforma en funcionamiento, no dudes en contactarme a traves de mi correo j.leiva2203@gmail.com.
