@@ -49,21 +49,23 @@ La base de datos fue normalizada para soportar las reglas de negocio del colegio
 ## 📸 Demostración Visual
 
 ### Panel Principal del Estudiante
-![Vista Estudiante](https://imgur.com/7mSYNaG)
+![Vista Estudiante](img/vista-alumno1.png)
 
 ### Panel de Postulacion del Estudiante
-![Vista Estudiante](https://imgur.com/W1Yodma)
+![Vista Estudiante](img/vista-alumno-2.png)
 *Interfaz limpia enfocada en la facilidad de uso para el alumno.*
 
 ### Dashboard del Super Administrador
-![Vista SuperAdmin](https://imgur.com/Uc0sOaQ)
+![Vista SuperAdmin](img/super-admin-dashboard.png)
 
 ### Panel de procesos de postulacion - Admin y SuperAdmin
-![Vista Postulacion](https://imgur.com/jDYt5ej)
+![Vista Postulacion](img/panel-postulacion.png)
 
 ### Panel de configuracion para Areas, sectores y electivos
-![Config Procesos](https://imgur.com/WhCbONZ)
+![Config Procesos](img/Config-Areas-y-electivos.png)
+
 ### Tabla de Logs SuperAdmin
+![Tabla logs](img/tabla-logs.png)
 ---
 
 ## ✉️ Contacto y Demostración en Vivo
