@@ -122,36 +122,6 @@ Construido como monolito con separación clara de responsabilidades:
 
 ---
 
-## 🏗️ Arquitectura y Modelo de Datos
-
-El esquema refleja las reglas de negocio, no una estructura genérica:
-
-| Tabla | Propósito |
-|-------|-----------|
-| `users` | Credenciales, perfil, RUT, rol y estado. |
-| `alumnos` | Ficha académica: enlaza un usuario con su `curso`. |
-| `cursos` | Secciones del colegio (`3º Medio A` … `4º Medio C`) con su `nivel`. |
-| `electivos` | Catálogo base: código, nombre, descripción, área, curso de vigencia, PDF y estado. |
-| `postulacion` | Un **proceso** de postulación: descripción, estado y ventana de fechas. |
-| `proceso_electivos` | Oferta concreta de un proceso: **electivo × grupo (G1/G2/G3) × cupo máximo**. |
-| `seleccion_electivos` | Elección de un estudiante: **única por alumno + proceso + grupo**. |
-| `exclusion_alumno_electivo` | Restricción: un estudiante no puede cursar un electivo. |
-| `actividades` | Auditoría: usuario, acción, descripción, IP y fecha. |
-| `google_tokens` | Tokens OAuth cifrados. |
-
-**Restricciones únicas** en base de datos —la última línea de defensa de la integridad:
-
-- `seleccion_electivos`: única por `(alumno, proceso, grupo)` y por `(alumno, oferta)`.
-- `proceso_electivos`: única por `(proceso, electivo, grupo)`.
-- `exclusion_alumno_electivo`: única por `(proceso, alumno, electivo)`.
-
-La integridad referencial combina ambos sentidos a propósito:
-
-- **`restrict`** — no se puede borrar un proceso que ya tiene selecciones, ni una oferta con selecciones, ni un curso con matrícula. El histórico de postulaciones queda protegido contra borrados accidentales.
-- **`cascade`** — eliminar un usuario borra su ficha de estudiante y, con ella, sus selecciones. No quedan registros huérfanos.
-
----
-
 ## ✅ Calidad
 
 - **123 tests automatizados · 481 aserciones**, en verde (29 archivos: 27 de funcionalidad y 2 unitarios).
