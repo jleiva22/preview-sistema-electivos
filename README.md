@@ -148,7 +148,13 @@ con capturas reales de la aplicación: carga masiva, KPIs en vivo, reglas
 G1·G2·G3, postulación mobile y auditoría. Del problema a la
 solución.
 
-![video-promo](video-promo.mp4)
+
+
+https://github.com/user-attachments/assets/d53b434b-7bb1-45c8-af58-586a6f0304eb
+
+
+
+
 
 
 > Hecho con Remotion + Playwright: las 15 capturas se tomaron del sistema real
