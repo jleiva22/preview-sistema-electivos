@@ -139,6 +139,22 @@ Construido como monolito con separación clara de responsabilidades:
 
 ---
 
+## 🎬 Videos
+
+**Demo promocional — Sistema de Electivos Escolares**
+
+Recorrido completo por los tres roles del sistema (superadmin, admin y alumno),
+con capturas reales de la aplicación: carga masiva, KPIs en vivo, reglas
+G1·G2·G3, postulación mobile y auditoría. Del problema a la
+solución.
+
+![video-promo](video-promo.mp4)
+
+
+> Hecho con Remotion + Playwright: las 15 capturas se tomaron del sistema real
+> en ejecución y las animaciones se componen en código (mismo stack que el
+> proyecto).
+
 ## ✉️ Contacto y Demostración en Vivo
 
 Si deseas conocer más detalles sobre la implementación, o ver una demostración guiada de la plataforma en funcionamiento, no dudes en contactarme a través de mi correo **j.leiva2203@gmail.com** |  **j.leiva2203@outlook.com** .
