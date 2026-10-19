@@ -79,7 +79,7 @@ Construido como monolito con separación clara de responsabilidades:
 | **Saneado de contenido** | HTMLPurifier (contenido enriquecido) |
 | **Notificaciones en UI** | php-flasher |
 | **Integración Google** | google/apiclient (OAuth 2.0 + Gmail) |
-| **Control de versiones / CI** | Git · GitHub · GitHub Actions |
+| **Control de versiones / | Git · GitHub  |
 
 ---
 
