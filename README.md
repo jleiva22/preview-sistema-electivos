@@ -141,4 +141,4 @@ Construido como monolito con separación clara de responsabilidades:
 
 ## ✉️ Contacto y Demostración en Vivo
 
-Si deseas conocer más detalles sobre la implementación, o ver una demostración guiada de la plataforma en funcionamiento, no dudes en contactarme a través de mi correo **j.leiva2203@gmail.com**.
+Si deseas conocer más detalles sobre la implementación, o ver una demostración guiada de la plataforma en funcionamiento, no dudes en contactarme a través de mi correo **j.leiva2203@gmail.com** |  **j.leiva2203@outlook.com** .
